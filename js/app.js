@@ -64,7 +64,7 @@ const ViewModel = function() {
     };
 
     self.setCurrentCat = function(cat){
-        self.currentCat(self.catList()[ko.contextFor(event.target).$index()]);
+        self.currentCat(cat);
     }
 };
 
